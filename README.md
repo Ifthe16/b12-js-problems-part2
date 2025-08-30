@@ -4,3 +4,5 @@
 - Find the min number
 - Calculate wood requirements
 - Calculate clothes price
+- Find the cheapest phone
+- Find the expensive phone
