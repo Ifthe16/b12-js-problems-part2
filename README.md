@@ -7,3 +7,4 @@
 - Find the cheapest phone
 - Find the expensive phone
 - Calculate the total cost of the products in a shopping cart
+-  Multi-layer discount price calculation
