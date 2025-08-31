@@ -8,3 +8,4 @@
 - Find the expensive phone
 - Calculate the total cost of the products in a shopping cart
 -  Multi-layer discount price calculation
+- Simple calculator to call function inside a function
