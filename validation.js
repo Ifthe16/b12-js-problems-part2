@@ -43,29 +43,29 @@ const full2 = fullName('Akmal');
 console.log(full2);
 
 function getPrice(product) {
-    if(typeof product !== 'object'){
+    if (typeof product !== 'object') {
         return 'Please provide an object';
     }
     const price = product.price;
     return price;
 }
 
-const price = getPrice({name: 'chulkani dandi', price: 35, color: 'blue'});
+const price = getPrice({ name: 'chulkani dandi', price: 35, color: 'blue' });
 console.log(price);
 
 const price2 = getPrice(52);
 console.log(price2);
 
-function getSecond(numbers){
-    if(Array.isArray(numbers) === false){
-return 'Please provide an array';
+function getSecond(numbers) {
+    if (Array.isArray(numbers) === false) {
+        return 'Please provide an array';
     }
     const second = numbers[1];
     return second;
 }
 
-const second = getSecond([1,25,69]);
+const second = getSecond([1, 25, 69]);
 console.log(second);
 
 const second2 = getSecond(45);
-console.log(second2) ;
+console.log(second2);
